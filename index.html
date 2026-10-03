@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="BharatJobs AI — Indian government and private jobs matched by qualification and location"><title>BharatJobs AI</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#"><b>BJ</b> BharatJobs <i>AI</i></a><nav><a href="#jobs">Jobs</a><a href="#how">How it works</a><a href="#about">About</a></nav><a class="navbtn" href="#jobs">Find jobs</a></div></header>
+<main>
+<section class="hero"><div class="wrap heroGrid"><div><small>🇮🇳 AI-POWERED JOB DISCOVERY FOR INDIA</small><h1>Find the right job.<br><em>Not thousands</em> of jobs.</h1><p>Choose your qualification and location. BharatJobs AI filters government and private opportunities and explains why each vacancy matches you.</p><a class="cta" href="#jobs">Explore matching jobs →</a></div><aside><div class="preview"><span>AI match preview</span><strong>94% match</strong></div><h3>Junior Engineer — Electrical</h3><p>Assam Power Distribution Company</p><div class="chips"><b>Government</b><b>Diploma</b><b>Assam</b></div><div class="bar"><i></i></div><small>Strong qualification + location match</small></aside></div></section>
+<section class="search"><div class="wrap"><div class="panel"><label>Qualification<select id="qualification"><option value="">Any qualification</option><option>10th</option><option>12th</option><option>Diploma</option><option>ITI</option><option>Graduate</option><option>B.Tech</option></select></label><label>Location<select id="location"><option value="">All India</option><option>Assam</option><option>Delhi</option><option>Maharashtra</option><option>Karnataka</option><option>West Bengal</option><option>Remote</option></select></label><label>Keyword<input id="keyword" placeholder="engineer, technician..."></label><button id="searchBtn">Search jobs</button></div><div class="filters"><button class="active" data-sector="">All jobs</button><button data-sector="Government">Government</button><button data-sector="Private">Private</button><button data-recent="7">Posted in 7 days</button></div></div></section>
+<section class="stats"><div class="wrap statgrid"><div><b>24,680+</b><span>Jobs indexed</span></div><div><b>36</b><span>States & UTs</span></div><div><b>7</b><span>Qualification levels</span></div><div><b>AI</b><span>Match explanations</span></div></div></section>
+<section id="jobs" class="jobs"><div class="wrap"><div class="heading"><div><small>DISCOVER OPPORTUNITIES</small><h2>Jobs that match you</h2></div><span id="count"></span></div><div class="advanced"><input id="titleSearch" placeholder="Search title or company"><select id="jobType"><option value="">Any job type</option><option>Full-time</option><option>Contract</option><option>Apprenticeship</option></select><select id="salary"><option value="">Any salary</option><option value="20">₹20k+</option><option value="30">₹30k+</option><option value="40">₹40k+</option><option value="50">₹50k+</option></select></div><div id="jobList"></div><div id="empty" class="empty" hidden>No jobs match these filters. Try broader filters.</div></div></section>
+<section id="how" class="how"><div class="wrap"><small>HOW IT WORKS</small><h2>Less scrolling. Better matches.</h2><div class="steps"><article><b>01</b><h3>Set your profile</h3><p>Choose qualification and preferred location.</p></article><article><b>02</b><h3>We classify jobs</h3><p>Normalize sector, qualification, location and freshness.</p></article><article><b>03</b><h3>AI explains the match</h3><p>See a match score and the reasons behind it.</p></article></div></div></section>
+<section id="about" class="about"><div class="wrap aboutgrid"><div><small>BUILT FOR INDIA</small><h2>Government and private opportunities in one place.</h2></div><p>Production will combine permitted APIs, public feeds, government sources and employer career feeds with OpenRouter-powered normalization and matching.</p></div></section>
+</main><footer><div class="wrap">© 2026 BharatJobs AI <span>Built for job seekers in India</span></div></footer><script src="script.js"></script></body></html>
